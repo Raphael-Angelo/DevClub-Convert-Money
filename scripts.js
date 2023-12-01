@@ -55,25 +55,25 @@ function changeCurrency() {
 
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar Americano"
-        currencyImage.src = "./assets/img-dolar.png"
+        currencyImage.src = "./assets/dolar.png"
     }
 
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-       
+        currencyImage.src = "./assets/euro.png"
     }
 
     if (currencySelect.value == "libra") {
         currencyName.innerHTML = "Libra"
-        
+        currencyImage.src = "./assets/libra.png"
     }
 
     if (currencySelect.value == "bitcoin") {
         currencyName.innerHTML = "BitCoin"
-        
+        currencyImage.src = "./assets/bitcoin.png"
     }
 
-    
+    convertValues()
 }
 
 

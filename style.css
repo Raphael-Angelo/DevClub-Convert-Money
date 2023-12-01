@@ -101,3 +101,17 @@ section {
     line-height: 18px;
     color: #555555;
 }
+
+@media screen and (max-width: 600px) {
+    .img-logo {
+        display: none;
+    }
+
+    body {
+        background-color: transparent;
+    }
+
+    main {
+        width: auto;
+    }
+}
